@@ -1,6 +1,6 @@
-import React from 'react';
-import { render } from 'react-dom';
-import PhoneNumberInput from './components/PhoneNumberInput';
+import React from 'react'
+import { render } from 'react-dom'
+import PhoneNumberInput from './components/PhoneNumberInput'
 
 const App = React.createClass({
     render() {
@@ -10,7 +10,7 @@ const App = React.createClass({
             </div>
         )
     }
-});
+})
 
-const mount = document.getElementById('mount');
-render(<App />, mount);
+const mount = document.getElementById('mount')
+render(<App />, mount)
